@@ -14,6 +14,7 @@
 		3C769855248AAEFB00877DD0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C769853248AAEFB00877DD0 /* LaunchScreen.storyboard */; };
 		3C769860248AAEFB00877DD0 /* MenuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C76985F248AAEFB00877DD0 /* MenuTests.swift */; };
 		3C76986B248AB1D400877DD0 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C76986A248AB1D400877DD0 /* MenuTableViewController.swift */; };
+		75F3311C248B9FA1005D5EAA /* TableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F3311B248B9FA1005D5EAA /* TableCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		3C76985F248AAEFB00877DD0 /* MenuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTests.swift; sourceTree = "<group>"; };
 		3C769861248AAEFB00877DD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3C76986A248AB1D400877DD0 /* MenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
+		75F3311B248B9FA1005D5EAA /* TableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				3C769848248AAEFA00877DD0 /* AppDelegate.swift */,
 				3C76984A248AAEFA00877DD0 /* SceneDelegate.swift */,
 				3C76984E248AAEFA00877DD0 /* Main.storyboard */,
+				75F3311B248B9FA1005D5EAA /* TableCell.swift */,
 				3C769851248AAEFB00877DD0 /* Assets.xcassets */,
 				3C769853248AAEFB00877DD0 /* LaunchScreen.storyboard */,
 				3C769856248AAEFB00877DD0 /* Info.plist */,
@@ -210,6 +213,7 @@
 			files = (
 				3C769849248AAEFA00877DD0 /* AppDelegate.swift in Sources */,
 				3C76984B248AAEFA00877DD0 /* SceneDelegate.swift in Sources */,
+				75F3311C248B9FA1005D5EAA /* TableCell.swift in Sources */,
 				3C76986B248AB1D400877DD0 /* MenuTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -373,6 +377,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9BLV596STG;
 				INFOPLIST_FILE = Menu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -380,7 +385,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = mdt.Menu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -391,6 +396,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9BLV596STG;
 				INFOPLIST_FILE = Menu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -398,7 +404,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = mdt.Menu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
